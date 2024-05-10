@@ -43,6 +43,6 @@ jobs:
       uses: mikepenz/action-junit-report@v3
       if: success() || failure()
       with: 
-        report_path: '**/junit.xml'
+        report_paths: '**/junit.xml'
         detailed_summary: true
         include_passed: true
